@@ -1,0 +1,112 @@
+
+.welcome-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+
+#start-button {
+    padding: 15px 30px;
+    font-size: 1.5rem;
+    background-color: #48A6A7;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+#start-button:hover {
+    background-color: #3b8788;
+}
+
+
+
+.footer1{
+    margin-top: 200px;
+}
+
+.Container{
+    margin: auto;
+    text-align: center;
+    width: 70%;
+    
+}
+
+.Dice{
+    display: inline-block;
+    text-align: center;
+}
+
+body{
+    background-color: black;
+}
+
+h1{
+  margin: 50px;
+  font-family: "Lobster", serif;
+  font-weight: 400;
+  font-size:4rem;
+  color: #48A6A7;
+  text-shadow: 2px 0 black;
+}
+
+h2{
+    text-shadow: 1px 0 #48A6A7;
+}
+
+p {
+  font-family: "Delicious Handrawn", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #48A6A7;
+  font-size: 2rem;
+}
+
+img {
+    width: 80%;
+    margin-bottom: 50px;
+}
+
+.dicee{
+border: 1px solid white;
+width:100%;
+
+}
+
+.roll-dice {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+
+#roll-dice{
+    padding: 10px;
+    border: none;
+    font-weight: 100;
+    font-size: 1rem;
+    background-color: firebrick;
+    color: white;
+    border-radius: 10px;
+}
+footer{
+    text-align: center;
+    margin-top: 50px;
+    color: aliceblue;
+}
